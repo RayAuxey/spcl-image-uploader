@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "hono": "^3.7.2",
+    "sharp": "^0.32.6"
+  },
+  "devDependencies": {
+    "bun-types": "^0.6.2"
+  },
+  "name": "spcl-image-uploader",
+  "module": "index.ts",
+  "type": "module",
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
